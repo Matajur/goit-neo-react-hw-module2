@@ -64,7 +64,7 @@ Make feedback statistics persist between page reloads. Use effects and local sto
 
 ### Acceptance criteria
 
-* Main link: the assignment work page on [Vercel](https://goit-neo-react-hw-module2-olive.vercel.app/).
+* Main link: the assignment work page on [Vercel](https://goit-neo-react-hw-module2-brown.vercel.app/).
 * The project was created using [Vite](https://vitejs.dev/).
 * When visiting the live task page, there are no errors or warnings in the console.
 * For each component, there is a separate folder in the `src/components` folder that contains the JSX file of the React component itself and its styles file. The name of the folder, the component file (with the extension `.jsx`) and the style file (before `.module.css`) are the same and correspond to the names specified in the tasks (if there were any)
