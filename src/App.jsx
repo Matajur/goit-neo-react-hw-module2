@@ -35,6 +35,7 @@ function App() {
   };
 
   const totalFeedback = counter.good + counter.neutral + counter.bad;
+  const positiveFeedback = Math.round((counter.good / totalFeedback) * 100)
 
   return (
     <>
@@ -49,6 +50,7 @@ function App() {
           neutral={counter.neutral}
           bad={counter.bad}
           totalFeedback={totalFeedback}
+          positiveFeedback={positiveFeedback}
         ></Feedback>
       ) : (
         <Notification></Notification>
